@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Order</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="order.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+	</head>
+	<body>
+             <div class="header">
+                <div class="logo">
+					<h2>
+						Lil O'l Cup
+					</h2>
+				</div>
+				<div class="navigationBlock">
+					<nav class="navigationMiddlePlacement">
+						<ul>
+							<div class="linkBlock">
+								<li class="active"><a href="Index.html">Home</a></li>
+							</div>
+							<div class="linkBlock">
+								<li><a href="order.html">Order Now</a></li>
+							</div>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+			  <div class="HImage">
+                  <div class="L"><img alt="LImage" src="images/LImage.png">
+                  </div>
+<!--        <h3>Hi there, would you like a steamy LilCup of love?</h3>-->
+              </div>
+		
+			<hr>
+	
+		<main>
+		
+            <div class="OrderNow">
+            <div class="block">
+                <h1>Order a LilCup Coffee Now!</h1>
+            </div>
+            
+            
+            </div>
+            
+            
+            
+            
+            
+            
+			<section class="About">
+
+				<div class="orderSection">
+<form id = "purchaseCoffee-form">
+	<label for = "coffeeCup">Choose the size of your cup</label>
+	<select id = "coffeeCup" name="coffeeCup">
+		<option>Short</option>
+		<option>Tall</option>
+		<option>Grande</option>
+	</select>
+	<label for="coffeeStyle">Choose your coffee style</label>
+	<select id = "coffeeStyle" name="coffeeStyle">
+		<option>Americano</option>
+		<option>Cappuccino</option>
+		<option>Latte</option>
+	</select>
+	<label for="extra1">How many spoons of sugar would you like?</label>
+	<select id="extra1">
+		<option>None</option>
+		<option>1 please</option>
+		<option>2 please</option>
+	</select>
+	<label for="extra2">Would you like to add syrup?</label>
+	<select id="extra2">
+		<option>None</option>
+		<option>Hazelnut</option>
+		<option>Caramel</option>
+	</select>
+	<label for="extra3">Would you like to add any other additional ingredients?</label>
+	<select id="extra3">
+		<option>None</option>
+		<option>Milk</option>
+		<option>Cream</option>
+	</select>
+	<label for="extra4">How many extra espresso shots would you like to add?</label>
+	<select id="extra4">
+		<option>None</option>
+		<option>1 extra shot</option>
+		<option>2 extra shots</option>
+		<option>3 extra shots</option>
+	</select>
+</form>
+		<button class="addspace" id="order">Add to order
+		</button>
+		<button id="order2">Add to order with employee discount
+		</button>
+<table id = "purchaseCoffee-table">
+	<thead>
+		<th width = "50%">Coffee Name</th>
+		<th width = "25%">Price</th>
+	</thead>
+	<tbody>
+		<tr><td></td><td></td></tr>
+	</tbody>
+</table>
+
+<div id="orderTotal">
+	Your oder total is <span></span>
+</div>
+				
+		</div>	
+            
+
+			</section>
+			
+		
+		</main>
+
+		<script src="node_modules/jquery/dist/jquery.js"></script>
+		<script src="classes/Order.js"></script>
+		<script src="classes/Ingredient.js"></script>
+        <script src="classes/EmployeeOrder.js"></script>
+        <script src="classes/Coffee.js"></script>
+        <script src="classes/CofeeShopFactory.js"></script>
+		<script src="model.js"></script>
+        <script src="Controller.js"></script>
+		
+	</body>
+</html>

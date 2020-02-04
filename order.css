@@ -1,0 +1,98 @@
+.L {
+    height: 200px;
+    width: 200px;
+    margin: 0px 0px 0px 400px;
+
+
+}
+.L img:hover {
+	transform: rotate(180deg);
+}
+.L img {
+    margin: 150px 0px 0px 100px;
+}
+
+.OrderNow {
+    height: 150px;
+
+}
+.block {
+    height: 100px;
+    background-color: #133132;
+    color: white;
+    width:1000px;
+    margin: auto;
+    text-align: center;
+    border: 6px solid #133132;
+}
+
+.About {
+	height: 800px;
+	
+}
+
+.orderSection {
+	background-color: white;
+    border: 6px solid #133132;
+	width: 500px;
+	height: 700px;
+    margin: auto;
+    padding: 15px;
+  
+}
+
+p {
+	color: white;
+	margin: 20px 10px 0px 10px;
+}
+
+.addspace {
+    margin: 20px 0px 20px 0px;
+}
+
+input, label, select, textarea {
+	display: block;
+	color: #133132;
+  
+}
+label {
+	margin-top: 15px;
+	color: #133132;
+    font-size: 18px;
+}
+
+input[type=radio] {
+	display: inline;
+}
+span {
+	color: #133132;
+}
+th {
+	color: #133132;
+
+ 
+}
+td {
+	color: #133132;
+ 
+}
+button {
+    color: #133132;
+    padding: 10px;
+    border: 2px solid #133132;
+    border-radius: 20px/50px;
+    text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+    background-color: white;
+}
+
+button:hover {
+  background: #133132;
+    color: white;
+    text-decoration: none;
+}
+
+#orderTotal {
+    margin: 0px 0px 0px 300px;
+}
